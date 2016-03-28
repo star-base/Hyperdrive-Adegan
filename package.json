@@ -2,14 +2,14 @@
 	"name": "hyperdrive",
 	"version": "0.0.1",
 	"author": "Brett Bash <brett@digitechaustin.com>",
-	"homepage": "http:/github.com/digitech-web-design/hyperdrive",
+	"homepage": "http:/github.com/star-base/hyperdrive",
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/digitech-web-design/hyperdrive.git"
+		"url": "git://github.com/star-base/hyperdrive.git"
 	},
 	"bugs": {
-		"url": "https://github.com/digitech-web-design/hyperdrive/issues"
+		"url": "https://github.com/star-base/hyperdrive/issues"
 	},
 	"licenses": [
 		{

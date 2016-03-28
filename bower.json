@@ -1,7 +1,7 @@
 {
   "name": "hyperdrive",
   "version": "0.0.1",
-  "homepage": "http:/github.com/digitech-web-design/hyperdrive",
+  "homepage": "http:/github.com/star-base/hyperdrive",
   "authors": [
     "Brett Bash <brett@digitechaustin.com>"
   ],
@@ -19,7 +19,6 @@
     "neat": "~1.7.4",
     "normalize-scss": "^3.0.3",
     "skrollr": "~0.6.30",
-    "slick-carousel": "~1.5.9",
-    "smoothstate": "^0.7.2"
+    "slick-carousel": "~1.5.9"
   }
 }
