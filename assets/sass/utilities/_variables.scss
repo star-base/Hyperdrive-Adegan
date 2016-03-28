@@ -1,0 +1,113 @@
+/* COLORS
+---------------------------------- */
+
+/* Primary Colors */
+// Example: $arrakis: #e8993c;
+
+// Shades
+$white: #ffffff;
+
+/* CORE STRUCTURE 
+---------------------------------- */
+// Neat
+$disable-warnings: true;
+
+// _Padding
+$main-padding: 20px;
+$fat-padding: 35px;
+$content-padding: 80px;
+
+
+/* BASE SIZES 
+---------------------------------- */
+
+// _Mobile
+$facehugger: 0;
+$xenomorph: 420px;
+$optimus-prime: 576px;
+$megatron: 660px;
+$millenniumfalcon: 720px;
+$voltron: 840px;
+
+// _Desktop
+$clover: 960px;
+$gipsy-danger: 1000px;
+$king-ghidorah: 1200px;
+$kaiju: 1370px;
+$godzilla: 1570px;
+
+// _Astronomical
+$betelgeuse: 1740px;
+$canis-majoris: 1920px;
+$cygni: 2300px;
+$scuti: 2500px;
+
+
+/* BOURBON NEAT BREAKPOINTS 
+---------------------------------- */
+// _Astronomical
+/*
+	:: 2500px <    */
+			$pinwheel: new-breakpoint(min-width $scuti); /*
+	:: 2300px <    */
+			$blackhole: new-breakpoint(min-width $cygni); /*
+	:: 1920px < + 960px >    */
+			$ursa-major: new-breakpoint(min-width $canis-majoris max-height $clover); /*
+	:: 1920px <    */
+			$andromeda: new-breakpoint(min-width $canis-majoris); /*
+	:: 1740px < + 1110px <    */
+			$milky-way: new-breakpoint(min-width $betelgeuse min-height $gipsy-danger+110px);
+ // _Desktop
+ /*
+	:: 1570px <    */
+		$desktop-xlg: new-breakpoint(min-width $godzilla); /*
+	:: 1570px < + 1020px <    */
+		$desktop-xlg-wh: new-breakpoint(min-width $godzilla min-height $gipsy-danger+20px); /*
+	:: 1370px <    */
+		$desktop-lg: new-breakpoint(min-width $kaiju); /*
+	:: 1370px >    */
+		$desktop-lg-max: new-breakpoint(max-width $kaiju); /*
+	:: 1370px < + 900px <    */
+		$desktop-lg-wh: new-breakpoint(min-width $kaiju min-height $voltron+60px); /*
+	:: 1260px > + 770px <    */
+		$desktop-md-wh: new-breakpoint(max-width $king-ghidorah+60px min-height $megatron+110px); /*
+	:: 1200px >    */
+		$desktop-md: new-breakpoint(max-width $king-ghidorah); /*
+	:: 1100px >    */
+		$desktop-mds: new-breakpoint(max-width $king-ghidorah - 100px); /*
+	:: 1000px >    */
+		$desktop-sm: new-breakpoint(max-width $gipsy-danger); /*
+	:: 960px >    */
+		$desktop-xsm: new-breakpoint(max-width $clover); /*
+	:: 841px <    */
+		$desktop-growing: new-breakpoint(min-width $voltron+1px);
+ // _Mobile
+ /*
+	:: 840px >    */
+		$mobile-lg: new-breakpoint(max-width $voltron); /*
+	:: 660px >    */
+		$mobile-slg: new-breakpoint(max-width $megatron); /*
+	:: 540px >    */
+		$mobile-md: new-breakpoint(max-width $optimus-prime); /*
+	:: 540px <    */
+		$mobile-md-min: new-breakpoint(min-width $optimus-prime); /*
+	:: 450px >    */
+		$mobile-smd: new-breakpoint(max-width $xenomorph+30px); /*
+	:: 420px >    */
+		$mobile-sm: new-breakpoint(max-width $xenomorph); /*
+	:: 375px >    */
+		$mobile-xsm: new-breakpoint(max-width $xenomorph - 45px);
+ // _Short
+ /*
+	:: 1110px >    */
+		$short-xxlg: new-breakpoint(max-height $gipsy-danger+110px); /*
+	:: 1020px >    */
+		$short-xlg: new-breakpoint(max-height $gipsy-danger+20px); /*
+	:: 900px >    */
+		$short-lg: new-breakpoint(max-height $voltron+60px); /*
+	:: 820px >    */
+		$short-md: new-breakpoint(max-height $voltron - 20px); /*
+	:: 690px >    */
+		$short-sm: new-breakpoint(max-height $megatron+30px); /*
+	:: 600px >    */
+		$short-xsm: new-breakpoint(max-height $megatron - 60px);

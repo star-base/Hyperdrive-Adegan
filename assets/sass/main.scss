@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+
+			 ___________________________________    
+				   __     __       __       __      
+				 /    )   / |    /    )   /    )    
+			 ----\-------/__|----\--------\-----    
+				  \     /   |     \        \        
+			 _(____/___/____|_(____/___(____/___    
+													
+			_ _ _ _ ___  ____ ____ ___  ____ _   _  
+			| | | |   /  |__| |__/ |  \ |__/  \_/   
+			|_|_| |  /__ |  | |  \ |__/ |  \   |    
+													 
+/*--------------------------------------------------------------
+>>> CORE COMPONENTS
+----------------------------------------------------------------*/
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import "../../bower_components/animatewithsass/animate.scss";
+@import "../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "../../bower_components/neat/app/assets/stylesheets/_neat.scss";
+@import "../../bower_components/normalize-scss/_normalize.scss";
+// endbower
+
+@import "utilities/toolbox";
+/* Utilities
+	:: Toolbox
+	:: Variables
+	:: Mixins
+	:: Functions
+	:: Helpers
+	*/
+@import "core/core";
+/* Core
+	:: Core
+	:: Grid
+	:: Typography
+	:: Foundation
+	:: Header
+	:: Navigation
+	:: Footer
+	:: Sidebar
+	:: Forms
+	*/
+  @import "elements/elemental-index";
+/* Elements
+	:: Elemental Index
+	:: Buttons
+	:: Slider
+	:: Carousel
+	:: Galleries
+	:: Media
+	:: Captions
+	:: Infinite Scroll
+	*/
+@import "pages/pages";
+/* Pages
+	:: Pages
+	:: Home
+	*/

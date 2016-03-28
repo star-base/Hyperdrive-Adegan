@@ -1,0 +1,25 @@
+{
+  "name": "hyperdrive",
+  "version": "0.0.1",
+  "homepage": "http:/github.com/digitech-web-design/hyperdrive",
+  "authors": [
+    "Brett Bash <brett@digitechaustin.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "animatewithsass": "~3.2.1",
+    "blazy": "~1.5.4",
+    "bourbon": "~4.2.6",
+    "chocolat": "~0.4.12",
+    "gsap": "~1.18.2",
+    "jquery.nicescroll": "~3.6.8",
+    "MasonJS": "mason.js#2.0.3",
+    "modernizr": "^3.3.1",
+    "neat": "~1.7.4",
+    "normalize-scss": "^3.0.3",
+    "skrollr": "~0.6.30",
+    "slick-carousel": "~1.5.9",
+    "smoothstate": "^0.7.2"
+  }
+}

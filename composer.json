@@ -1,0 +1,24 @@
+{
+	"name": "starbase/hyperdrive",
+	"type": "wordpress-theme",
+	"license": "MIT",
+	"description": "",
+	"homepage": "http:/github.com/digitech-web-design/hyperdrive",
+	"authors": [
+		{
+			"name": "Brett Bash",
+			"email": "brett@digitechaustin.com",
+			"homepage": "https://github.com/brettbash"
+		}
+	],
+	"keywords": [
+		"wordpress"
+	],
+	"support": {
+		"issues": "https://github.com/digitech-web-design/hyperdrive/issues"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"composer/installers": "~1.0"
+	}
+}

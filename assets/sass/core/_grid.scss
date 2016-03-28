@@ -1,0 +1,19 @@
+%container {
+	position: relative;
+	z-index: 1;
+	@include outer-container($kaiju - 40px); // 1320px
+	width: $kaiju - 40px;
+
+	@include media($desktop-lg-max) {
+		@include outer-container($clover);
+		width: $clover;
+		display: block;
+	}
+	
+	@include media($desktop-sm) {
+		@include outer-container(90%);
+		width: 90%;
+		display: block;
+	}
+	
+}
