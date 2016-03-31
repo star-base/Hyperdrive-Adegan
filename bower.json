@@ -14,7 +14,7 @@
     "chocolat": "~0.4.12",
     "gsap": "~1.18.2",
     "jquery.nicescroll": "~3.6.8",
-    "MasonJS": "mason.js#2.0.3",
+    "MasonJS": "mason.js#*",
     "modernizr": "^3.3.1",
     "neat": "~1.7.4",
     "normalize-scss": "^3.0.3",

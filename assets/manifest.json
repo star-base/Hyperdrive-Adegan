@@ -22,6 +22,6 @@
 		}
 	},
 	"config": {
-		"devUrl": "http://hyperdrive.dev"
+		"devUrl": "http://example.dev"
 	}
 }
