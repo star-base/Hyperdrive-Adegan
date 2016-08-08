@@ -1,7 +1,7 @@
 {
   "name": "hyperdrive",
   "version": "0.0.1",
-  "homepage": "http:/github.com/star-base/hyperdrive",
+  "homepage": "http:/github.com/digitech-web-design/hyperdrive",
   "authors": [
     "Brett Bash <brett@digitechaustin.com>"
   ],
@@ -9,16 +9,15 @@
   "private": true,
   "dependencies": {
     "animatewithsass": "~3.2.1",
-    "blazy": "~1.5.4",
-    "bourbon": "~4.2.6",
-    "chocolat": "~0.4.12",
-    "gsap": "~1.18.2",
-    "jquery.nicescroll": "~3.6.8",
-    "MasonJS": "mason.js#*",
+    "blazy": "~1.6.2",
+    "bourbon": "~4.2.7",
+    "chocolat": "~0.4.14",
+    "gsap": "~1.19.0",
+    "isotope": "~2.2.2",
     "modernizr": "^3.3.1",
-    "neat": "~1.7.4",
-    "normalize-scss": "^3.0.3",
-    "skrollr": "~0.6.30",
-    "slick-carousel": "~1.5.9"
+    "neat": "~1.8.0",
+    "normalize-scss": "^5.0.3",
+    "scrollmagic": "~2.0.5",
+    "slick-carousel": "~1.6.0"
   }
 }
