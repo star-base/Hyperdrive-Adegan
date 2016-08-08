@@ -1,19 +1,17 @@
 %container {
 	position: relative;
+	@include outer-container(90%);
+	width: 90%;
+	display: block;
 	z-index: 1;
-	@include outer-container($kaiju - 40px); // 1320px
-	width: $kaiju - 40px;
 
-	@include media($desktop-lg-max) {
-		@include outer-container($clover);
-		width: $clover;
-		display: block;
-	}
-	
 	@include media($desktop-sm) {
-		@include outer-container(90%);
-		width: 90%;
-		display: block;
+		@include outer-container($clover); // 960px
+		width: $clover;
 	}
-	
+
+	@include media($desktop-lg) {
+		@include outer-container($kaiju - 40px); // 1320px
+		width: $kaiju - 40px;
+	}
 }
