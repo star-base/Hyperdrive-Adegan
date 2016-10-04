@@ -5,12 +5,12 @@
 	display: block;
 	z-index: 1;
 
-	@include media($desktop-sm) {
+	@include media($desktop_sm) {
 		@include outer-container($clover); // 960px
 		width: $clover;
 	}
 
-	@include media($desktop-lg) {
+	@include media($desktop_lg) {
 		@include outer-container($kaiju - 40px); // 1320px
 		width: $kaiju - 40px;
 	}

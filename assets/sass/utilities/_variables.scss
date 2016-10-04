@@ -13,11 +13,11 @@ $white: #ffffff;
 $disable-warnings: true;
 
 // _Padding
-$main-padding: 20px;
-$fat-padding: 35px;
-$content-padding: 80px;
-$main-pad: 2.1875%;
-$fat-pad: 6.375%;
+$main_padding: 20px;
+$fat_padding: 35px;
+$content_padding: 80px;
+$main_pad: 2.1875%;
+$fat_pad: 6.375%;
 
 
 /* BASE SIZES 
@@ -26,21 +26,21 @@ $fat-pad: 6.375%;
 // _Mobile
 $facehugger: 0;
 $xenomorph: 420px;
-$optimus-prime: 576px;
+$optimus_prime: 576px;
 $megatron: 660px;
 $millenniumfalcon: 720px;
 $voltron: 840px;
 
 // _Desktop
 $clover: 960px;
-$gipsy-danger: 1000px;
-$king-ghidorah: 1200px;
+$gipsy_danger: 1000px;
+$king_ghidorah: 1200px;
 $kaiju: 1370px;
 $godzilla: 1570px;
 
 // _Astronomical
 $betelgeuse: 1740px;
-$canis-majoris: 1920px;
+$canis_majoris: 1920px;
 $cygni: 2300px;
 $scuti: 2500px;
 
@@ -50,35 +50,35 @@ $scuti: 2500px;
 // _Mobile
 /*
 	:: 375px <    */
-		$mobile-xsm: new-breakpoint(min-width $xenomorph - 45px); /*
+		$mobile_xsm: new-breakpoint(min-width $xenomorph - 45px); /*
 	:: 420px <    */
-		$mobile-sm: new-breakpoint(min-width $xenomorph); /*
+		$mobile_sm: new-breakpoint(min-width $xenomorph); /*
 	:: 450px <    */
-		$mobile-mds: new-breakpoint(min-width $xenomorph + 30px); /*
+		$mobile_mds: new-breakpoint(min-width $xenomorph + 30px); /*
 	:: 576px <    */
-		$mobile-md: new-breakpoint(min-width $optimus-prime); /*
+		$mobile_md: new-breakpoint(min-width $optimus_prime); /*
 	:: 660px <    */
-		$mobile-mdlg: new-breakpoint(min-width $megatron); /*
+		$mobile_mdlg: new-breakpoint(min-width $megatron); /*
 	:: 720px <    */
-		$mobile-lg: new-breakpoint(min-width $millenniumfalcon); /*
+		$mobile_lg: new-breakpoint(min-width $millenniumfalcon); /*
 	:: 840px <    */
-		$mobile-xlg: new-breakpoint(min-width $voltron); /*
+		$mobile_xlg: new-breakpoint(min-width $voltron); /*
 // _Desktop
 /*	
 	:: 960px <    */
-		$desktop-xsm: new-breakpoint(min-width $clover); /*
+		$desktop_xsm: new-breakpoint(min-width $clover); /*
 	:: 1000px <    */
-		$desktop-sm: new-breakpoint(min-width $gipsy-danger); /*
+		$desktop_sm: new-breakpoint(min-width $gipsy_danger); /*
 	:: 1100px <    */
-		$desktop-mds: new-breakpoint(min-width $king-ghidorah - 100px); /*
+		$desktop_mds: new-breakpoint(min-width $king_ghidorah - 100px); /*
 	:: 1200px <    */
-		$desktop-md: new-breakpoint(min-width $king-ghidorah); /*
+		$desktop_md: new-breakpoint(min-width $king_ghidorah); /*
 	:: 1280px <    */
-		$desktop-mdlg: new-breakpoint(min-width $king-ghidorah + 80px); /*
+		$desktop_mdlg: new-breakpoint(min-width $king_ghidorah + 80px); /*
 	:: 1370px <    */
-		$desktop-lg: new-breakpoint(min-width $kaiju); /*
+		$desktop_lg: new-breakpoint(min-width $kaiju); /*
 	:: 1570px <    */
-		$desktop-xlg: new-breakpoint(min-width $godzilla); /*
+		$desktop_xlg: new-breakpoint(min-width $godzilla); /*
 // _Astronomical
 /*
 	:: 2500px <    */
@@ -86,24 +86,24 @@ $scuti: 2500px;
 	:: 2300px <    */
 		$blackhole: new-breakpoint(min-width $cygni); /*
 	:: 1920px < + 960px >    */
-		$ursa-major: new-breakpoint(min-width $canis-majoris max-height $clover); /*
+		$ursa_major: new-breakpoint(min-width $canis_majoris max-height $clover); /*
 	:: 1920px <    */
-		$andromeda: new-breakpoint(min-width $canis-majoris); /*
+		$andromeda: new-breakpoint(min-width $canis_majoris); /*
 	:: 1740px < + 1110px <    */
-		$milky-way: new-breakpoint(min-width $betelgeuse min-height $gipsy-danger + 110px);
+		$milky_way: new-breakpoint(min-width $betelgeuse min-height $gipsy_danger + 110px);
 	
 
 // _Short
 /*	
 	:: 600px <    */
-		$short-xsm: new-breakpoint(min-height $megatron - 60px); /*
+		$short_xsm: new-breakpoint(min-height $megatron - 60px); /*
 	:: 690px <    */
-		$short-sm: new-breakpoint(min-height $megatron + 30px); /*
+		$short_sm: new-breakpoint(min-height $megatron + 30px); /*
 	:: 820px <    */
-		$short-md: new-breakpoint(min-height $voltron - 20px); /*
+		$short_md: new-breakpoint(min-height $voltron - 20px); /*
 	:: 900px <    */
-		$short-lg: new-breakpoint(min-height $voltron + 60px); /*
+		$short_lg: new-breakpoint(min-height $voltron + 60px); /*
 	:: 1020px <    */
-		$short-xlg: new-breakpoint(min-height $gipsy-danger + 20px); /*
+		$short_xlg: new-breakpoint(min-height $gipsy_danger + 20px); /*
 	:: 1110px <    */
-		$short-xxlg: new-breakpoint(min-height $gipsy-danger + 110px); /*
+		$short_xxlg: new-breakpoint(min-height $gipsy_danger + 110px); /*
