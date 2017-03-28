@@ -76,7 +76,7 @@
 	display: block;
 }
 
-@include media($mobile_lg) {
+@media ($mobile_lg) {
 	.menu-toggle {
 		display: none;
 	}

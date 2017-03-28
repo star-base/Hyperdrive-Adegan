@@ -1,0 +1,45 @@
+%container {
+	position: relative;
+	max-width: 90%;
+	width: 90%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+
+	@media ($desktop_sm) {
+		max-width: $clover; // 960px
+		width: $clover;
+	}
+
+	@media ($desktop_lg) {
+		max-width: $kaiju - 40px; // 1320px
+		width: $kaiju - 40px;
+	}
+
+	@media ($desktop_xxlg) {
+		max-width: $betelgeuse; // 1740px
+		width: $betelgeuse;
+	}
+}
+
+%container_flex {
+	position: relative;
+	display: flex;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 1;
+
+	@media ($desktop_sm) {
+		width: $clover;
+	}
+
+	@media ($desktop_lg) {
+		width: $kaiju - 40px;
+	}
+
+	@media ($desktop_xxlg) {
+		width: $betelgeuse;
+	}
+}

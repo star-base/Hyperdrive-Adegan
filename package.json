@@ -1,7 +1,7 @@
 {
 	"name": "hyperdrive",
-	"version": "0.0.1",
-	"author": "Brett Bash <brett@digitechaustin.com>",
+	"version": "0.0.2",
+	"author": "Brett Bash <brettbash@brettbash.com>",
 	"homepage": "http:/github.com/star-base/hyperdrive",
 	"private": true,
 	"repository": {
@@ -23,7 +23,7 @@
 		"jscs": "jscs gulpfile.js assets/scripts/*.js"
 	},
 	"engines": {
-		"node": ">= 0.12.0",
+		"node": ">= 4.5",
 		"npm": ">=2.1.5"
 	},
 	"devDependencies": {

@@ -18,7 +18,7 @@
 		"issues": "https://github.com/digitech-web-design/hyperdrive/issues"
 	},
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=5.6.4",
 		"composer/installers": "~1.0"
 	}
 }

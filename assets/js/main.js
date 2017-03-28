@@ -12,6 +12,41 @@
 
 (function($) {
 
+	// HELPERS
+	var addAnimations = function (animations, trigger, hook, offset, duration, controller) {
+		var scene = '';
+		var tween = new TimelineMax();
+		tween.insertMultiple(animations, 0, 0);
+
+		if (hook && duration) {
+			scene = new ScrollMagic.Scene({
+				triggerElement: trigger,
+				triggerHook: hook,
+				offset: offset,
+				duration: duration
+			})
+					.setTween(tween)
+					.addTo(controller);
+		} else if (duration) {
+			scene = new ScrollMagic.Scene({
+				triggerElement: trigger,
+				offset: offset,
+				duration: duration
+			})
+					.setTween(tween)
+					.addTo(controller);
+		} else {
+			scene = new ScrollMagic.Scene({
+				triggerElement: trigger,
+				offset: offset
+			})
+					.setTween(tween)
+					.addTo(controller);
+		}
+
+		return;
+	};
+
 	// Use this variable to set up the common and page specific functions. If you
 	// rename this variable, you will also need to rename the namespace below.
 	var Hyperdrive = {

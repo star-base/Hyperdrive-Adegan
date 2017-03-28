@@ -1,23 +1,39 @@
 {
-  "name": "hyperdrive",
-  "version": "0.0.1",
-  "homepage": "http:/github.com/digitech-web-design/hyperdrive",
-  "authors": [
-    "Brett Bash <brett@digitechaustin.com>"
-  ],
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "animatewithsass": "~3.2.1",
-    "blazy": "~1.6.2",
-    "bourbon": "~4.2.7",
-    "chocolat": "~0.4.14",
-    "gsap": "~1.19.0",
-    "isotope": "~2.2.2",
-    "modernizr": "^3.3.1",
-    "neat": "~1.8.0",
-    "normalize-scss": "^5.0.3",
-    "scrollmagic": "~2.0.5",
-    "slick-carousel": "~1.6.0"
-  }
+	"name": "hyperdrive",
+	"version": "0.0.2",
+	"homepage": "http:/github.com/digitech-web-design/hyperdrive",
+	"authors": [
+		"Brett Bash <brettbash@brettbash.com>"
+	],
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"animatewithsass": "~3.2.1",
+		"bourbon": "~4.2.7",
+		"chocolat": "~0.4.14",
+		"gsap": "~1.19.1",
+		"isotope": "~2.2.2",
+		"modernizr": "^3.3.1",
+		"neat": "~2.0.0",
+		"normalize.scss": "^6.0.0",
+		"scrollmagic": "~2.0.5",
+		"slick-carousel": "~1.6.0",
+		"modaal": "0.3.1",
+		"plyr": "^2.0.11"
+	},
+	"overrides": {
+		"gsap": {
+			"main": [
+				"./src/uncompressed/TweenMax.js",
+				"./src/uncompressed/TweenLite.js"
+			]
+		},
+		"scrollmagic": {
+			"main": [
+				"./scrollmagic/uncompressed/ScrollMagic.js",
+				"./scrollmagic/uncompressed/plugins/animation.gsap.js",
+				"./scrollmagic/uncompressed/plugins/debug.addIndicators.js"
+			]
+		}
+	}
 }
